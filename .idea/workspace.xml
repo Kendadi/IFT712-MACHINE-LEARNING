@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4826de43-81d9-4cf4-a808-4c9802f91a99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cross_validation/cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cross_validation/cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_utils/data_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_utils/data_visualization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
