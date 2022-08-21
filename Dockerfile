@@ -70,7 +70,7 @@ COPY ./ /app
 
 # Run the specified command within the container.
 # CMD virtualenv ./.venv ; source ./.venv/bin/activate ; pip install ­­--upgrade pip ; pip install ­-r requirements.txt ; deactivate ; npm --prefix ./api install ; node ./api
-RUN sudo apt-get -y install yum
+RUN apt-get -y install yum
 
 CMD sh ./Dockerfile.sh
 # CMD node ./api
