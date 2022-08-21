@@ -63,61 +63,6 @@ pip3 install Werkzeug==1.0.1 --no-cache-dir
 pip3 install wrapt==1.12.1 --no-cache-dir
 pip3 install zipp==3.4.0 --no-cache-dir
 
-conda create --name=algo
-conda activate algo
-
-#########################
-conda install matplotlib
-conda install matplotlib
-conda install matplotlib
-conda install matplotlib
-conda install matplotlib
-
-conda install absl-py
-conda install astunparse
-conda install cached-property
-conda install cachetools
-conda install certifi
-conda install chardet
-conda install gast
-conda install google-auth
-conda install google-auth-oauthlib
-conda install google-pasta
-conda install grpcio
-conda install h5py
-conda install idna
-conda install imbalanced-learn
-conda install imblearn
-conda install importlib-metadata
-conda install joblib==0.17.0
-conda install Keras-Preprocessing
-conda install Markdown
-conda install numpy
-conda install oauthlib
-conda install opt-einsum
-conda install pandas
-conda install protobuf
-conda install pyasn1
-conda install pyasn1-modules
-conda install python-dateutil
-conda install pytz
-conda install requests
-conda install requests-oauthlib
-conda install rsa
-conda install scikit-learn
-conda install scipy
-conda install six
-conda install tensorboard
-conda install tensorboard-plugin-wit
-conda install tensorflow
-conda install tensorflow-estimator
-conda install termcolor
-conda install threadpoolctl
-conda install tqdm
-conda install urllib3
-conda install Werkzeug
-conda install wrapt
-conda install zipp
 
 .service - 
 Loaded: loaded (/etc/systemd/system/ .service; enabled; vendor preset: disabled)
