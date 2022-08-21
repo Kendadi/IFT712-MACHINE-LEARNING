@@ -1,3 +1,4 @@
+sudo apt-get -y install yum
 yum update
 yum install python3-pip
 yum install cuda-11-0 libcudnn8
