@@ -16,10 +16,10 @@ RUN apt-get -y install curl
 # Download latest nodejs binary
 # Extract & install
 RUN curl https://nodejs.org/dist/latest/node-v15.10.0-linux-x64.tar.xz -O
-RUN tar -xf node-v15.10.0-linux-x64.tar.xz
-RUN ln -s /node-v15.10.0-linux-x64/bin/node /usr/local/bin/node
-RUN ln -s /node-v15.10.0-linux-x64/bin/npm /usr/local/bin/npm
-RUN ln -s /node-v15.10.0-linux-x64/bin/npx /usr/local/bin/npx
+# RUN tar -xf node-v15.10.0-linux-x64.tar.xz
+# RUN ln -s /node-v15.10.0-linux-x64/bin/node /usr/local/bin/node
+# RUN ln -s /node-v15.10.0-linux-x64/bin/npm /usr/local/bin/npm
+# RUN ln -s /node-v15.10.0-linux-x64/bin/npx /usr/local/bin/npx
 # RUN curl https://nodejs.org/dist/latest/node-v15.10.0-linux-x64.tar.xz -O
 # RUN tar -xf node-v15.10.0-linux-x64.tar.xz
 # RUN sudo ln -s /node-v15.10.0-linux-x64/bin/node /usr/bin/node
