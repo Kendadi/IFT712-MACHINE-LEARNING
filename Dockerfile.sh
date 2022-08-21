@@ -1,6 +1,6 @@
-yum update
-yum install python3-pip
-yum install cuda-11-0 libcudnn8
+apt-get update update
+apt-get install -y python3-pip
+# yum install cuda-11-0 libcudnn8
 # npm install
 pip3 install virtualenv
 pip3 install pip
@@ -81,7 +81,7 @@ deactivate
 # apt install nvidia-361-dev
 # apt install nvidia-modprobe
 # lsb_release -a
-yum update
+# yum update
 # apt-get -y install module-init-tools
 # apt-get -y install kmod
 # curl -fSsl -O https://us.download.nvidia.com/tesla/450.80.02/NVIDIA-Linux-x86_64-450.80.02.run
