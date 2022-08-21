@@ -64,10 +64,10 @@ pip3 install wrapt==1.12.1 --no-cache-dir
 pip3 install zipp==3.4.0 --no-cache-dir
 
 
-.service - 
-Loaded: loaded (/etc/systemd/system/ .service; enabled; vendor preset: disabled)
-Active: failed (Result: start-limit) since 
-Process: 21027 ExecStart= (code=exited, status=127)
+# .service - 
+# Loaded: loaded (/etc/systemd/system/ .service; enabled; vendor preset: disabled)
+# Active: failed (Result: start-limit) since 
+# Process: 21027 ExecStart= (code=exited, status=127)
 
 pip3 install jupyter
 jupyter notebook --generate-config
