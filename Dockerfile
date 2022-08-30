@@ -26,7 +26,7 @@ RUN curl https://nodejs.org/dist/latest/node-v15.10.0-linux-x64.tar.xz -O
 # RUN sudo ln -s /node-v15.10.0-linux-x64/bin/npm /usr/bin/npm
 # RUN sudo ln -s /node-v15.10.0-linux-x64/bin/npx /usr/bin/npx
 
-# RUN apt-get -y install nvidia-cuda-toolkit
+RUN apt-get -y install nvidia-cuda-toolkit
 
 
 
